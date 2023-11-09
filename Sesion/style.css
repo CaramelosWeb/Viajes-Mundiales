@@ -1,0 +1,39 @@
+body {
+      background-image: url('./fondo/Fondo_sesion.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+
+    .container {
+      animation: slideFromLeft 1s;
+      padding-top: 100px;
+    }
+
+    @keyframes slideFromLeft {
+      from {
+        transform: translateX(-100%);
+      }
+      to {
+        transform: translateX(0);
+      }
+    }
+
+    .card {
+      border: 2px solid #0417FF;
+      border-radius: 10px;
+    }
+
+    .card-header {
+      background-color: #0417FF;
+      color: white;
+    }
+
+    .form-label {
+      color: #e11616;
+    }
+
+    .btn-primary {
+      background-color: #0417FF;
+      border: none;
+    }
